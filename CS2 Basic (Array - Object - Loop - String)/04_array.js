@@ -32,3 +32,45 @@ console.log(numbers)
 
 
 
+// Loop iterate on array
+
+let numbers_2 = [500, 100, 150, 200];
+
+for (number of numbers_2) {
+    console.log(number)
+}
+
+
+
+
+
+
+let players = ["Shakib", "Mustafiz", "Masrafee", "Taskin"];
+console.log("Players :", players)
+
+// includes
+console.log(players.includes("Mustafiz"))
+
+// indexOf
+console.log("Taskin's Index :", players.indexOf("Taskin"))
+
+// index
+console.log("Index 0 of Players :", players[0])
+
+// is it array or not
+console.log("Array Check :", Array.isArray(players))
+
+// reverse 
+console.log(players.reverse())
+
+// join: to convert a string
+let players_string = players.join(" - ")
+console.log(players_string)
+
+
+
+
+
+
+
+
