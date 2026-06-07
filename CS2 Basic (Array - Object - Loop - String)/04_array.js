@@ -114,3 +114,18 @@ console.log(reverse_str)
 // shortcut
 let short_cut = line_3.split(" ").reverse().join(" ");
 console.log("Shortcut :", short_cut)
+
+
+// count a specific letter
+let count_letters = "We love to travel and watch movie.";
+let tCount = 0;
+
+for (let i = 0; i < count_letters.length; i++) {
+    let letter = count_letters[i]
+    if (letter.toLowerCase() == "t") {
+        // tCount = tCount + 1;
+        tCount++;
+    }
+}
+
+console.log("T available in", tCount, "times.")
