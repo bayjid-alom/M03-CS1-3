@@ -81,16 +81,36 @@ console.log(string_1.toLowerCase().trim() === string_2.toLowerCase().trim())
 let bd = "I love Bangladesh.";
 console.log("From index 2 to last :", bd.slice(2))
 
-console.log(bd.slice(2,6))
+console.log(bd.slice(2, 6))
 
 
 // includes()
 console.log(bd.includes("Bangladesh"))
 
 
+// concat()
+let line_1 = "Hello World!";
+let line_2 = "Welcome to Javascript."
+
+console.log(line_1.concat(" ").concat(line_2))
 
 
+// replace()   - to replace specific portion
+let a_line = "I am living in Dhaka."
+console.log(a_line.replace("Dhaka", "Mymensingh"))
 
 
+// split()*** - very useful for reverse a string
+// string to array --> array to reverse()
 
+let line_3 = "We love Programming";
+let strArr = line_3.split(" ")
+console.log(strArr)
+console.log(strArr.reverse())
 
+let reverse_str = strArr.join(" ");
+console.log(reverse_str)
+
+// shortcut
+let short_cut = line_3.split(" ").reverse().join(" ");
+console.log("Shortcut :", short_cut)
