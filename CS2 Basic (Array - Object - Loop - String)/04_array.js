@@ -69,6 +69,26 @@ console.log(players_string)
 
 
 
+// trim()   (remove white space from only first & last)
+let string_1 = "Bayjid Alom";
+let string_2 = "bayjid alom";
+
+console.log(string_1[0])
+console.log(string_1.toLowerCase().trim() === string_2.toLowerCase().trim())
+
+
+// slice()
+let bd = "I love Bangladesh.";
+console.log("From index 2 to last :", bd.slice(2))
+
+console.log(bd.slice(2,6))
+
+
+// includes()
+console.log(bd.includes("Bangladesh"))
+
+
+
 
 
 
